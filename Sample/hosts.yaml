@@ -1,0 +1,18 @@
+---
+
+HQ-Border1.tatooine.com:
+  groups:
+  - distribution
+  hostname: 192.168.99.1
+HQ-Border2.tatooine.com:
+  groups:
+  - distribution
+  hostname: 192.168.99.2
+HQ-Edge-1.tatooine.com:
+  groups:
+  - access
+  hostname: 192.168.1.70
+HQ-Edge-2.tatooine.com:
+  groups:
+  - access
+  hostname: 192.168.1.71
