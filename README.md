@@ -1,5 +1,5 @@
 # nornir_inventory_from_dnac
-Creating a Nornir network inventory from Cisco DNA Center
+**Creating a Nornir network inventory from Cisco DNA Center**
 
 A sample of the hosts.yaml and the defaults.yaml file that is generated from this script is stored in the 'Sample' folder, along with manually created config.yaml and group.yaml files. A simple Nornir script is also in there to confirm that the hosts and defaults file generated from the script actually works with Nornir. 
 
