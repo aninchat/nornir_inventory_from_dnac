@@ -56,4 +56,4 @@ vvvv send_command ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
   Group3                           <not set>             ipv4        LI0.4100
   Mgmt-vrf                         <not set>             ipv4,ipv6   Gi0/0
 ^^^^ END send_command ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  '''
+'''
