@@ -1,0 +1,6 @@
+---
+
+access:
+        platform: iosxe
+distribution:
+        platform: iosxe
