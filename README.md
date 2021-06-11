@@ -3,7 +3,35 @@
 
 A sample of the hosts.yaml and the defaults.yaml file that is generated from this script is stored in the 'Sample' folder, along with manually created config.yaml and group.yaml files. A simple Nornir script is also in there to confirm that the hosts and defaults file generated from the script actually works with Nornir. 
 
-The output of the 'sample_nornir_script' (as an example):
+**Example usage of nornir inventory script:**
+
+```
+(Nornir2.5) aninchat@aninchat-ubuntu:~/Automation/Python/Nornir2.5_Projects$ python create_nornir_inventory_from_dnac.py 
+Enter the IP address for DNAC: 10.104.233.91
+Enter username for DNAC: admin
+Enter password for DNAC: 
+Retrieved token from DNAC for subsequent API calls
+
+=============================================
+
+Enter the username for network devices: aninchat
+Enter the password for network devices: 
+Retrieved device list from DNAC
+
+=============================================
+
+Please enter complete path where Nornir hosts file should be saved: /home/aninchat/Automation/Python/Nornir2.5_Projects/Sample/hosts.yaml
+Attempting to create Nornir hosts file
+Created Nornir hosts file
+
+=============================================
+
+Please enter complete path where Nornir defaults file should be saved: /home/aninchat/Automation/Python/Nornir2.5_Projects/Sample/defaults.yaml
+Attempting to create Nornir defaults file
+Created Nornir defaults file
+```
+
+**Output of the 'sample_nornir_script' (as an example):**
 
 ```
 (Nornir2.5) aninchat@aninchat-ubuntu:~/Automation/Python/Nornir2.5_Projects/Sample$ python sample_nornir_script.py 
