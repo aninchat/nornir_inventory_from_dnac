@@ -1,0 +1,9 @@
+---
+connection_options:
+  scrapli:
+    extras:
+      auth_strict_key: false
+    platform: cisco_iosxe
+    port: 22
+password: C1sc0123
+username: aninchat
