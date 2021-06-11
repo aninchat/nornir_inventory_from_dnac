@@ -31,6 +31,19 @@ Attempting to create Nornir defaults file
 Created Nornir defaults file
 ```
 
+The files are created in the file path specified:
+
+```
+(Nornir2.5) aninchat@aninchat-ubuntu:~/Automation/Python/Nornir2.5_Projects/Sample$ tree
+.
+├── config.yaml
+├── defaults.yaml
+├── group.yaml
+├── hosts.yaml
+├── nornir.log
+└── sample_nornir_script.py
+```
+
 **Output of the 'sample_nornir_script' (as an example):**
 
 ```
