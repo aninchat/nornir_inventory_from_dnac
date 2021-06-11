@@ -1,0 +1,7 @@
+---
+inventory:
+        plugin: SimpleInventory
+        options:
+                host_file: "/home/aninchat/Automation/Python/Nornir2.5_Projects/Sample/hosts.yaml"
+                group_file: "/home/aninchat/Automation/Python/Nornir2.5_Projects/Sample/group.yaml"
+                defaults_file: "/home/aninchat/Automation/Python/Nornir2.5_Projects/Sample/defaults.yaml"
